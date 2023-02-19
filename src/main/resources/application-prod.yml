@@ -1,0 +1,13 @@
+#项目名称
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://43.136.37.152:3306/user_center
+    username: dogyupi
+    password: yupi666
+# session 设置session 的失效时间为 1天
+  session:
+    timeout: 86400
+
+
+
